@@ -37,7 +37,7 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="date">Last updated: September 29, 2026</p>
+        <p class="date">Last updated: October 15, 2026</p>
 
         <p>BalanceX ("we", "our", or "us") operates the PDF Scanner mobile application (the "App"). This Privacy Policy explains how we collect, use, and protect your information when you use our App.</p>
 
@@ -55,7 +55,6 @@
         <ul>
             <li><strong>Analytics Data:</strong> We use Google Analytics for Firebase to collect anonymous usage data such as app opens, feature usage, and session duration. This data does not personally identify you.</li>
             <li><strong>Crash Reports:</strong> We use Firebase Crashlytics to collect crash logs and diagnostic data to improve app stability. These reports may include device model, OS version, and stack traces.</li>
-            <li><strong>Advertising Data:</strong> We use Google AdMob to display advertisements. AdMob may collect device identifiers and usage data to serve relevant ads. You can opt out of personalized ads through your device settings.</li>
         </ul>
 
         <h3>Camera and Storage Access</h3>
@@ -64,33 +63,61 @@
             <li><strong>Storage:</strong> Used to save and access your scanned documents and PDF files.</li>
         </ul>
 
+        <h3>Google Account and Google Drive</h3>
+        <ul>
+            <li><strong>Google Sign-In:</strong> If you choose to sign in with your Google account, we access your name, email address, and profile photo solely to display your account information within the App. We do not store this information on any external server.</li>
+            <li><strong>Google Drive Backup:</strong> If you use the backup feature, your PDF documents are uploaded to your own Google Drive account in a folder named "PDF Scanner Backup". We use the <code>drive.file</code> scope, which means the App can only access files it has created — it cannot read or modify any other files in your Google Drive. This feature is entirely optional and requires your explicit consent.</li>
+        </ul>
+
         <h2>How We Use Your Information</h2>
         <p>We use collected information to:</p>
         <ul>
             <li>Provide and maintain the App</li>
             <li>Improve app performance and fix bugs</li>
-            <li>Display advertisements</li>
             <li>Analyze usage patterns to improve user experience</li>
         </ul>
 
         <h2>Data Storage and Security</h2>
         <ul>
-            <li>All your documents, scans, and personal files remain on your device.</li>
-            <li>We do not store, access, or transmit your documents to any server.</li>
+            <li>All your documents, scans, and personal files remain on your device by default.</li>
+            <li>If you enable Google Drive backup, your PDF files are uploaded directly to your personal Google Drive account. We do not have access to your Google Drive files.</li>
+            <li>We do not store, access, or transmit your documents to our servers.</li>
             <li>Encrypted PDFs are protected using industry-standard AES encryption.</li>
+            <li>In-app purchase records are managed securely through Google Play Billing.</li>
         </ul>
 
         <h2>Third-Party Services</h2>
         <p>Our App uses the following third-party services that may collect data:</p>
         <ul>
-            <li><a href="https://firebase.google.com/policies/analytics">Google Analytics for Firebase</a></li>
-            <li><a href="https://firebase.google.com/support/privacy">Firebase Crashlytics</a></li>
-            <li><a href="https://policies.google.com/privacy">Google AdMob</a></li>
+            <li><a href="https://firebase.google.com/policies/analytics">Google Analytics for Firebase</a> — anonymous usage analytics</li>
+            <li><a href="https://firebase.google.com/support/privacy">Firebase Crashlytics</a> — crash reporting and diagnostics</li>
+            <li><a href="https://policies.google.com/privacy">Google Sign-In</a> — account authentication (optional)</li>
+            <li><a href="https://developers.google.com/drive/api/guides/about-sdk">Google Drive API</a> — cloud backup of your PDF files (optional)</li>
+            <li><a href="https://play.google.com/intl/en_us/about/play-terms/index.html">Google Play Billing</a> — in-app purchases</li>
         </ul>
-        <p>Each third-party service operates under its own privacy policy.</p>
+        <p>Each third-party service operates under its own privacy policy. We encourage you to review their respective policies.</p>
+
+        <h2>Data Sharing</h2>
+        <p>We do <strong>not sell, trade, or share</strong> your personal data with any third parties for advertising or marketing purposes. The only data shared with third-party services is:</p>
+        <ul>
+            <li>Anonymous analytics data (Firebase Analytics) — for app improvement only</li>
+            <li>Crash reports (Firebase Crashlytics) — for bug fixing only</li>
+            <li>Your PDF files to your own Google Drive account — only if you explicitly enable backup</li>
+            <li>Purchase information to Google Play — for processing in-app purchases</li>
+        </ul>
+
+        <h2>Data Retention and Deletion</h2>
+        <p>Your documents and files are stored locally on your device. You have full control over your data at all times:</p>
+        <ul>
+            <li><strong>Local Data:</strong> You can delete any document within the App at any time. Deleted documents are moved to Trash and automatically permanently deleted after 30 days, or you can empty the Trash manually.</li>
+            <li><strong>Google Drive Backup:</strong> If you use Google Drive backup, you can delete your backup files directly from your Google Drive account at any time.</li>
+            <li><strong>App Data:</strong> You can clear all app data at any time through your device's Settings → Apps → PDF Scanner → Clear Data.</li>
+            <li><strong>Account Deletion:</strong> The App does not create user accounts. Google Sign-In is used only for authentication with Google Drive. You can revoke access at any time from your <a href="https://myaccount.google.com/permissions">Google Account permissions</a>.</li>
+            <li><strong>Analytics Data:</strong> Anonymous analytics and crash data collected by Firebase is retained for up to 14 months, after which it is automatically deleted.</li>
+        </ul>
 
         <h2>Children's Privacy</h2>
-        <p>Our App is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+        <p>Our App is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected data from a child under 13, please contact us and we will promptly delete it.</p>
 
         <h2>Changes to This Privacy Policy</h2>
         <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the App. Changes are effective immediately upon posting.</p>
